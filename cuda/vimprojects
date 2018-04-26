@@ -1,0 +1,61 @@
+
+/home/zhifeng/git_repos/miniFE/cuda=/home/zhifeng/git_repos/miniFE/cuda CD=/home/zhifeng/git_repos/miniFE/cuda filter="*.h *.hpp *.c *.cpp *.cu *Makefile *makefile" {
+ fem=fem {
+  analytic_soln.hpp
+  ElemData.hpp
+  gauss_pts.hpp
+  Hex8.hpp
+  Hex8_ElemData.hpp
+  Hex8_enums.hpp
+  matrix_algebra_3x3.hpp
+  verify_solution.hpp
+ }
+ src=src {
+  assemble_FE_data.hpp
+  cg_solve.hpp
+  CudaELLMatrix.hpp
+  CudaHex8.hpp
+  CudaUtils.cu
+  CudaUtils.h
+  driver.hpp
+  exchange_externals.hpp
+  generate_matrix_structure.hpp
+  GetNodesCoords.hpp
+  Hex8_box_utils.hpp
+  main.cu
+  make_local_matrix.hpp
+  Makefile
+  miniFE_info.hpp
+  perform_element_loop.hpp
+  shfl.h
+  simple_mesh_description.hpp
+  SparseMatrix_functions.hpp
+  time_kernels.hpp
+  Vector.hpp
+  Vector_functions.hpp
+  YAML_Doc.cpp
+  YAML_Doc.hpp
+  YAML_Element.cpp
+  YAML_Element.hpp
+ }
+ utils=utils {
+  Box.hpp
+  box_utils.hpp
+  BoxIterator.hpp
+  BoxPartition.cpp
+  BoxPartition.hpp
+  compute_matrix_stats.hpp
+  imbalance.hpp
+  miniFE_no_info.hpp
+  miniFE_version.h
+  mytimer.cpp
+  mytimer.hpp
+  outstream.hpp
+  param_utils.cpp
+  param_utils.hpp
+  Parameters.hpp
+  TypeTraits.hpp
+  utils.cpp
+  utils.hpp
+ }
+}

@@ -1,0 +1,545 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Box	utils/Box.hpp	/^struct Box {$/;"	s
+BoxIterator	utils/BoxIterator.hpp	/^  BoxIterator(const Box& box, bool at_end = false)$/;"	f	class:miniFE::BoxIterator
+BoxIterator	utils/BoxIterator.hpp	/^class BoxIterator {$/;"	c	namespace:miniFE
+CC	src/Makefile	/^CC=gcc$/;"	m
+CFLAGS	src/Makefile	/^CFLAGS = -O3$/;"	m
+CG_TIMES	utils/mytimer.hpp	/^enum CG_TIMES {$/;"	g	namespace:miniFE
+CPPFLAGS	src/Makefile	/^CPPFLAGS = -I. -I..\/utils -I..\/fem $(MINIFE_TYPES) $(MINIFE_MATRIX_TYPE) -DMATVEC_OVERLAP #-DGPUDIRECT #-DMINIFE_DEBUG$/;"	m
+CUDA_MAKE_LOCAL	src/make_local_matrix.hpp	240;"	d
+CXX	src/Makefile	/^CXX=g++$/;"	m
+CXXFLAGS	src/Makefile	/^CXXFLAGS = -O3$/;"	m
+ColMarkMap	src/make_local_matrix.hpp	/^    ColMarkMap(GlobalOrdinal size) { $/;"	f	class:miniFE::ColMarkMap
+ColMarkMap	src/make_local_matrix.hpp	/^class ColMarkMap {$/;"	c	namespace:miniFE
+CudaELLMatrix	src/CudaELLMatrix.hpp	/^  CudaELLMatrix()$/;"	f	struct:miniFE::CudaELLMatrix
+CudaELLMatrix	src/CudaELLMatrix.hpp	/^CudaELLMatrix {$/;"	s	namespace:miniFE
+CudaManager	src/CudaUtils.h	/^class CudaManager {$/;"	c	namespace:miniFE
+DOT	utils/mytimer.hpp	/^  DOT = 1,$/;"	e	enum:miniFE::CG_TIMES
+EXTERNAL	src/SparseMatrix_functions.hpp	/^  enum MATVEC_RANGE { INTERNAL=0, EXTERNAL=1 };$/;"	e	enum:miniFE::MATVEC_RANGE
+ElemData	fem/ElemData.hpp	/^  ElemData() : nodes_per_elem(Hex8::numNodesPerElem) {}$/;"	f	struct:miniFE::ElemData
+ElemData	fem/ElemData.hpp	/^struct ElemData {$/;"	s	namespace:miniFE
+ElemDataPtr	fem/ElemData.hpp	/^  ElemDataPtr() : nodes_per_elem(Hex8::numNodesPerElem) {}$/;"	f	struct:miniFE::ElemDataPtr
+ElemDataPtr	fem/ElemData.hpp	/^struct ElemDataPtr {$/;"	s	namespace:miniFE
+GetNodesCoords	src/GetNodesCoords.hpp	/^struct GetNodesCoords {$/;"	s
+GlobalOrdinalType	src/CudaELLMatrix.hpp	/^  typedef GlobalOrdinal GlobalOrdinalType;$/;"	t	struct:miniFE::CudaELLMatrix
+GlobalOrdinalType	src/CudaELLMatrix.hpp	/^  typedef GlobalOrdinal GlobalOrdinalType;$/;"	t	struct:miniFE::PODELLMatrix
+GlobalOrdinalType	src/Vector.hpp	/^  typedef GlobalOrdinal GlobalOrdinalType;$/;"	t	struct:miniFE::PODVector
+GlobalOrdinalType	src/Vector.hpp	/^  typedef GlobalOrdinal GlobalOrdinalType;$/;"	t	struct:miniFE::Vector
+GlobalOrdinalType	src/simple_mesh_description.hpp	/^  typedef  GlobalOrdinal GlobalOrdinalType;$/;"	t	class:miniFE::simple_mesh_description
+Hex8	fem/Hex8.hpp	/^namespace Hex8 {$/;"	n	namespace:miniFE
+Hex8	fem/Hex8_enums.hpp	/^namespace Hex8 {$/;"	n	namespace:miniFE
+Hex8	src/CudaHex8.hpp	/^  namespace Hex8 {$/;"	n	namespace:miniFE
+INTERNAL	src/SparseMatrix_functions.hpp	/^  enum MATVEC_RANGE { INTERNAL=0, EXTERNAL=1 };$/;"	e	enum:miniFE::MATVEC_RANGE
+KERNEL_PREFIX	fem/Hex8.hpp	32;"	d
+KERNEL_PREFIX	fem/gauss_pts.hpp	32;"	d
+KERNEL_PREFIX	fem/matrix_algebra_3x3.hpp	32;"	d
+LDFLAGS	src/Makefile	/^LDFLAGS= $/;"	m
+LIBS	src/Makefile	/^LIBS= -l nvToolsExt$/;"	m
+LOWER	utils/imbalance.hpp	/^const int LOWER = 0;$/;"	m	namespace:miniFE
+LocalOrdinalType	src/CudaELLMatrix.hpp	/^  typedef LocalOrdinal  LocalOrdinalType;$/;"	t	struct:miniFE::CudaELLMatrix
+LocalOrdinalType	src/CudaELLMatrix.hpp	/^  typedef LocalOrdinal  LocalOrdinalType;$/;"	t	struct:miniFE::PODELLMatrix
+LocalOrdinalType	src/Vector.hpp	/^  typedef LocalOrdinal LocalOrdinalType;$/;"	t	struct:miniFE::PODVector
+LocalOrdinalType	src/Vector.hpp	/^  typedef LocalOrdinal LocalOrdinalType;$/;"	t	struct:miniFE::Vector
+MATVEC	utils/mytimer.hpp	/^  MATVEC = 2,$/;"	e	enum:miniFE::CG_TIMES
+MATVECDOT	utils/mytimer.hpp	/^  MATVECDOT = 3,$/;"	e	enum:miniFE::CG_TIMES
+MATVEC_RANGE	src/SparseMatrix_functions.hpp	/^  enum MATVEC_RANGE { INTERNAL=0, EXTERNAL=1 };$/;"	g	namespace:miniFE
+MAX_BLOCK	src/shfl.h	3;"	d
+MINIFE_CXX	src/miniFE_info.hpp	9;"	d
+MINIFE_CXX	utils/miniFE_no_info.hpp	36;"	d
+MINIFE_CXXFLAGS	src/miniFE_info.hpp	11;"	d
+MINIFE_CXXFLAGS	utils/miniFE_no_info.hpp	37;"	d
+MINIFE_CXX_VERSION	src/miniFE_info.hpp	10;"	d
+MINIFE_GLOBAL_ORDINAL	src/main.cu	67;"	d	file:
+MINIFE_HOSTNAME	src/miniFE_info.hpp	4;"	d
+MINIFE_HOSTNAME	utils/miniFE_no_info.hpp	31;"	d
+MINIFE_KERNEL_NAME	src/miniFE_info.hpp	5;"	d
+MINIFE_KERNEL_NAME	utils/miniFE_no_info.hpp	32;"	d
+MINIFE_KERNEL_RELEASE	src/miniFE_info.hpp	6;"	d
+MINIFE_KERNEL_RELEASE	utils/miniFE_no_info.hpp	33;"	d
+MINIFE_LOCAL_ORDINAL	src/main.cu	64;"	d	file:
+MINIFE_MATRIX_TYPE	src/Makefile	/^MINIFE_MATRIX_TYPE = -DMINIFE_ELL_MATRIX$/;"	m
+MINIFE_PROCESSOR	src/miniFE_info.hpp	7;"	d
+MINIFE_PROCESSOR	utils/miniFE_no_info.hpp	34;"	d
+MINIFE_SCALAR	fem/analytic_soln.hpp	34;"	d
+MINIFE_SCALAR	src/main.cu	61;"	d	file:
+MINIFE_TYPES	src/Makefile	/^MINIFE_TYPES =  \\$/;"	m
+MINIFE_VERSION	utils/miniFE_version.h	32;"	d
+Mantevo	utils/param_utils.cpp	/^namespace Mantevo {$/;"	n	file:
+Mantevo	utils/param_utils.hpp	/^namespace Mantevo {$/;"	n
+Marker	src/CudaUtils.h	/^void Marker() {$/;"	f	namespace:miniFE
+Marker_kernel	src/CudaUtils.h	/^__global__ void Marker_kernel() {}$/;"	f	namespace:miniFE
+NONE	utils/imbalance.hpp	/^const int NONE = 3;$/;"	m	namespace:miniFE
+NUM_TIMERS	utils/mytimer.hpp	/^  NUM_TIMERS = 5$/;"	e	enum:miniFE::CG_TIMES
+NVCC	src/Makefile	/^NVCC=nvcc -Xcompiler -fopenmp $/;"	m
+NVCCFLAGS	src/Makefile	/^NVCCFLAGS=-lineinfo -gencode=arch=compute_35,code=\\"sm_35,compute_35\\" #-gencode=arch=compute_20,code=\\"sm_20,compute_20\\" $/;"	m
+PI	fem/analytic_soln.hpp	/^const Scalar PI = 3.141592653589793238462;$/;"	m	namespace:miniFE
+PI_SQR	fem/analytic_soln.hpp	/^const Scalar PI_SQR = PI*PI;$/;"	m	namespace:miniFE
+PODColMarkMap	src/make_local_matrix.hpp	/^struct PODColMarkMap {$/;"	s	namespace:miniFE
+PODELLMatrix	src/CudaELLMatrix.hpp	/^PODELLMatrix {$/;"	s	namespace:miniFE
+PODMap	src/simple_mesh_description.hpp	/^struct PODMap {$/;"	s	namespace:miniFE
+PODMesh	src/simple_mesh_description.hpp	/^struct PODMesh$/;"	s	namespace:miniFE
+PODVector	src/Vector.hpp	/^struct PODVector {$/;"	s	namespace:miniFE
+Parameters	utils/Parameters.hpp	/^  Parameters()$/;"	f	struct:miniFE::Parameters
+Parameters	utils/Parameters.hpp	/^struct Parameters {$/;"	s	namespace:miniFE
+RUN_TIMED_FUNCTION	src/driver.hpp	69;"	d
+Scalar	fem/analytic_soln.hpp	/^typedef MINIFE_SCALAR Scalar;$/;"	t	namespace:miniFE
+ScalarType	src/CudaELLMatrix.hpp	/^  typedef Scalar        ScalarType;$/;"	t	struct:miniFE::CudaELLMatrix
+ScalarType	src/CudaELLMatrix.hpp	/^  typedef Scalar        ScalarType;$/;"	t	struct:miniFE::PODELLMatrix
+ScalarType	src/Vector.hpp	/^  typedef Scalar ScalarType;$/;"	t	struct:miniFE::PODVector
+ScalarType	src/Vector.hpp	/^  typedef Scalar ScalarType;$/;"	t	struct:miniFE::Vector
+TICK	utils/mytimer.hpp	47;"	d
+TOCK	utils/mytimer.hpp	48;"	d
+TOTAL	utils/mytimer.hpp	/^  TOTAL = 4,$/;"	e	enum:miniFE::CG_TIMES
+TypeTraits	utils/TypeTraits.hpp	/^struct TypeTraits<double> {$/;"	s	namespace:miniFE
+TypeTraits	utils/TypeTraits.hpp	/^struct TypeTraits<float> {$/;"	s	namespace:miniFE
+TypeTraits	utils/TypeTraits.hpp	/^struct TypeTraits<int> {$/;"	s	namespace:miniFE
+TypeTraits	utils/TypeTraits.hpp	/^struct TypeTraits<long int> {$/;"	s	namespace:miniFE
+TypeTraits	utils/TypeTraits.hpp	/^struct TypeTraits<long long> {$/;"	s	namespace:miniFE
+TypeTraits	utils/TypeTraits.hpp	/^struct TypeTraits<std::complex<double> > {$/;"	s	namespace:miniFE
+TypeTraits	utils/TypeTraits.hpp	/^struct TypeTraits<std::complex<float> > {$/;"	s	namespace:miniFE
+TypeTraits	utils/TypeTraits.hpp	/^struct TypeTraits<unsigned> {$/;"	s	namespace:miniFE
+TypeTraits	utils/TypeTraits.hpp	/^template<typename T> struct TypeTraits {};$/;"	s	namespace:miniFE
+UPPER	utils/imbalance.hpp	/^const int UPPER = 1;$/;"	m	namespace:miniFE
+Vector	src/Vector.hpp	/^  Vector(GlobalOrdinal startIdx, LocalOrdinal local_sz)$/;"	f	struct:miniFE::Vector
+Vector	src/Vector.hpp	/^struct Vector {$/;"	s	namespace:miniFE
+WAXPY	utils/mytimer.hpp	/^  WAXPY = 0,$/;"	e	enum:miniFE::CG_TIMES
+X	utils/imbalance.hpp	/^const int X = 0;$/;"	m	namespace:miniFE
+Y	utils/imbalance.hpp	/^const int Y = 1;$/;"	m	namespace:miniFE
+YAML_DOC_H	src/YAML_Doc.hpp	37;"	d
+YAML_Doc	src/YAML_Doc.cpp	/^YAML_Doc::YAML_Doc(const std::string& miniApp_Name, const std::string& miniApp_Version, const std::string& destination_Directory, const std::string& destination_FileName){$/;"	f	class:YAML_Doc
+YAML_Doc	src/YAML_Doc.hpp	/^class YAML_Doc: public YAML_Element {$/;"	c
+YAML_ELEMENT_H	src/YAML_Element.hpp	37;"	d
+YAML_Element	src/YAML_Element.cpp	/^YAML_Element::YAML_Element(const std::string& key_arg, const std::string& value_arg){$/;"	f	class:YAML_Element
+YAML_Element	src/YAML_Element.hpp	/^  YAML_Element (){key="";value="";}$/;"	f	class:YAML_Element
+YAML_Element	src/YAML_Element.hpp	/^class YAML_Element {$/;"	c
+Z	utils/imbalance.hpp	/^const int Z = 2;$/;"	m	namespace:miniFE
+_BoxPartition_hpp_	utils/BoxPartition.hpp	29;"	d
+_BoxTraverser_hpp_	utils/BoxIterator.hpp	2;"	d
+_Box_hpp_	utils/Box.hpp	29;"	d
+_CUDAELLMatrix_hpp_	src/CudaELLMatrix.hpp	2;"	d
+_ElemData_hpp_	fem/ElemData.hpp	2;"	d
+_GETNODESCOORDS_HPP_	src/GetNodesCoords.hpp	32;"	d
+_H_MINIFE_CUDA_UTILS	src/CudaUtils.h	3;"	d
+_Hex8_ElemData_hpp_	fem/Hex8_ElemData.hpp	2;"	d
+_Hex8_box_utils_hpp_	src/Hex8_box_utils.hpp	2;"	d
+_Hex8_enums_hpp_	fem/Hex8_enums.hpp	2;"	d
+_Hex8_hpp_	fem/Hex8.hpp	2;"	d
+_SparseMatrix_functions_hpp_	src/SparseMatrix_functions.hpp	2;"	d
+_TypeTraits_hpp_	utils/TypeTraits.hpp	2;"	d
+_Vector_functions_hpp_	src/Vector_functions.hpp	2;"	d
+_Vector_hpp_	src/Vector.hpp	2;"	d
+__compare_and_swap_xor	src/CudaUtils.h	/^ValueType __compare_and_swap_xor(ValueType val, int mask, int ASCENDING=true) {$/;"	f	namespace:miniFE
+__ldg	src/CudaUtils.h	/^template <class T> static __device__ inline T __ldg(T* ptr) { return *ptr; }$/;"	f	namespace:miniFE
+__shfl	src/shfl.h	/^__device__ inline T __shfl(T var, const unsigned int srcLane, const unsigned int width=32) {$/;"	f
+__shfl_down	src/shfl.h	/^__device__ inline T __shfl_down(T var, const unsigned int delta, const unsigned int width=32) {$/;"	f
+__shfl_up	src/shfl.h	/^__device__ inline T __shfl_up(T var, const unsigned int delta, const unsigned int width=32) {$/;"	f
+__shfl_xor	src/shfl.h	/^__device__ inline T __shfl_xor(T var, const unsigned int laneMask, const unsigned int width=32) {$/;"	f
+__sort	src/CudaUtils.h	/^ValueType __sort(ValueType val, int ASCENDING=true) {$/;"	f	namespace:miniFE
+_analytic_soln_hpp_	fem/analytic_soln.hpp	2;"	d
+_assemble_FE_data_hpp_	src/assemble_FE_data.hpp	2;"	d
+_box_utils_hpp_	utils/box_utils.hpp	2;"	d
+_cg_solve_hpp_	src/cg_solve.hpp	2;"	d
+_compute_matrix_stats_hpp_	utils/compute_matrix_stats.hpp	2;"	d
+_driver_hpp_	src/driver.hpp	2;"	d
+_exchange_externals_hpp_	src/exchange_externals.hpp	2;"	d
+_gauss_pts_hpp_	fem/gauss_pts.hpp	2;"	d
+_generate_matrix_structure_hpp_	src/generate_matrix_structure.hpp	2;"	d
+_imbalance_hpp_	utils/imbalance.hpp	29;"	d
+_make_local_matrix_hpp_	src/make_local_matrix.hpp	2;"	d
+_matrix_algebra_3x3_hpp_	fem/matrix_algebra_3x3.hpp	2;"	d
+_minife_version_h_	utils/miniFE_version.h	2;"	d
+_mytimer_hpp_	utils/mytimer.hpp	2;"	d
+_outstream_hpp_	utils/outstream.hpp	29;"	d
+_param_utils_hpp_	utils/param_utils.hpp	2;"	d
+_parameters_hpp_	utils/Parameters.hpp	29;"	d
+_perform_element_loop_hpp_	src/perform_element_loop.hpp	2;"	d
+_simple_mesh_description_hpp_	src/simple_mesh_description.hpp	3;"	d
+_time_kernels_hpp_	src/time_kernels.hpp	2;"	d
+_utils_hpp_	utils/utils.hpp	2;"	d
+_verify_solution_hpp_	fem/verify_solution.hpp	2;"	d
+add	src/YAML_Element.cpp	/^YAML_Element* YAML_Element::add(const std::string& key_arg, const std::string& value_arg) {$/;"	f	class:YAML_Element
+add	src/YAML_Element.cpp	/^YAML_Element* YAML_Element::add(const std::string& key_arg, double value_arg) {$/;"	f	class:YAML_Element
+add	src/YAML_Element.cpp	/^YAML_Element* YAML_Element::add(const std::string& key_arg, int value_arg) {$/;"	f	class:YAML_Element
+add	src/YAML_Element.cpp	/^YAML_Element* YAML_Element::add(const std::string& key_arg, long long value_arg) {$/;"	f	class:YAML_Element
+add	src/YAML_Element.cpp	/^YAML_Element* YAML_Element::add(const std::string& key_arg, size_t value_arg) {$/;"	f	class:YAML_Element
+add_configuration_to_yaml	src/main.cu	/^void add_configuration_to_yaml(YAML_Doc& doc, int numprocs, int numthreads)$/;"	f
+add_imbalance	utils/imbalance.hpp	/^add_imbalance(const Box& global_box,$/;"	f	namespace:miniFE
+add_params_to_yaml	src/main.cu	/^void add_params_to_yaml(YAML_Doc& doc, miniFE::Parameters& params)$/;"	f
+add_timestring_to_yaml	src/main.cu	/^void add_timestring_to_yaml(YAML_Doc& doc)$/;"	f
+analytic	fem/verify_solution.hpp	/^  Scalar analytic;$/;"	m	struct:miniFE::err_info
+assemble_FE_data	src/assemble_FE_data.hpp	/^assemble_FE_data(const simple_mesh_description<typename MatrixType::GlobalOrdinalType>& mesh,$/;"	f	namespace:miniFE
+bc_rows_0	src/simple_mesh_description.hpp	/^  std::set<GlobalOrdinal> bc_rows_0;$/;"	m	class:miniFE::simple_mesh_description
+bc_rows_1	src/simple_mesh_description.hpp	/^  std::set<GlobalOrdinal> bc_rows_1;$/;"	m	class:miniFE::simple_mesh_description
+begin	utils/BoxIterator.hpp	/^  static BoxIterator begin(const Box& box)$/;"	f	class:miniFE::BoxIterator
+begin_exchange_externals	src/exchange_externals.hpp	/^begin_exchange_externals(MatrixType& A,$/;"	f	namespace:miniFE
+binarySearch	src/CudaUtils.h	/^  GlobalOrdinal binarySearch(const GlobalOrdinal *ptr, GlobalOrdinal low_, GlobalOrdinal high_, const GlobalOrdinal val) {$/;"	f	namespace:miniFE
+box_	utils/BoxIterator.hpp	/^  Box box_;$/;"	m	class:miniFE::BoxIterator
+box_contain	utils/BoxPartition.cpp	/^static int box_contain( const Box& a , const Box& b )$/;"	f	file:
+box_disjoint	utils/BoxPartition.cpp	/^static int box_disjoint( const Box& a , const Box& b)$/;"	f	file:
+box_map_local	utils/BoxPartition.cpp	/^int box_map_local( const Box& box_local,$/;"	f
+box_map_local_entry	utils/BoxPartition.cpp	/^static int box_map_local_entry( const Box& box ,$/;"	f	file:
+box_partition	utils/BoxPartition.cpp	/^void box_partition( int ip , int up , int axis ,$/;"	f
+box_partition_maps	utils/BoxPartition.cpp	/^static void box_partition_maps( $/;"	f	file:
+box_partition_rcb	utils/BoxPartition.cpp	/^void box_partition_rcb( const int np , $/;"	f
+box_print	utils/BoxPartition.cpp	/^static void box_print( FILE * fp , const Box& a )$/;"	f	file:
+breakdown	src/cg_solve.hpp	/^bool breakdown(typename VectorType::ScalarType inner,$/;"	f	namespace:miniFE
+broadcast_parameters	utils/utils.cpp	/^void broadcast_parameters(Parameters& params)$/;"	f	namespace:miniFE
+cg_solve	src/cg_solve.hpp	/^cg_solve(OperatorType& A,$/;"	f	namespace:miniFE
+children	src/YAML_Element.hpp	/^  std::vector<YAML_Element*> children;$/;"	m	class:YAML_Element
+coefs	src/CudaELLMatrix.hpp	/^  Scalar                      *coefs;$/;"	m	struct:miniFE::PODELLMatrix
+coefs	src/CudaELLMatrix.hpp	/^  std::vector<Scalar>        coefs;$/;"	m	struct:miniFE::CudaELLMatrix
+coefs	src/Vector.hpp	/^  Scalar *coefs;$/;"	m	struct:miniFE::PODVector
+coefs	src/Vector.hpp	/^  std::vector<Scalar> coefs;$/;"	m	struct:miniFE::Vector
+cols	src/CudaELLMatrix.hpp	/^  GlobalOrdinal               *cols;$/;"	m	struct:miniFE::PODELLMatrix
+cols	src/CudaELLMatrix.hpp	/^  std::vector<GlobalOrdinal> cols;$/;"	m	struct:miniFE::CudaELLMatrix
+compute_detJ	src/CudaHex8.hpp	/^      __device__ __inline__ void compute_detJ(int elethidx, const Scalar elemNodeCoords[Hex8::spatialDim],$/;"	f	namespace:miniFE::Hex8
+compute_detJ_invJ_grad_vals	src/CudaHex8.hpp	/^      __device__ void compute_detJ_invJ_grad_vals(int elethidx, const Scalar elemNodeCoords[Hex8::spatialDim],$/;"	f	namespace:miniFE::Hex8
+compute_element_matrix_and_vector	fem/Hex8_ElemData.hpp	/^compute_element_matrix_and_vector(ElemData<GlobalOrdinal,Scalar>& elem_data)$/;"	f	namespace:miniFE
+compute_element_matrix_and_vector	fem/Hex8_ElemData.hpp	/^compute_element_matrix_and_vector(ElemDataPtr<GlobalOrdinal,Scalar>& elem_data)$/;"	f	namespace:miniFE
+compute_element_matrix_and_vector	src/perform_element_loop.hpp	/^void compute_element_matrix_and_vector(Scalar elem_node_coord[Hex8::spatialDim], Scalar elem_diffusion_matrix[Hex8::numNodesPerElem*Hex8::numNodesPerElem], Scalar elem_source_vector[Hex8::numNodesPerElem], const Scalar *gradients, const Scalar* psi)$/;"	f	namespace:miniFE
+compute_gradient_values	fem/Hex8_ElemData.hpp	/^void compute_gradient_values(Scalar* grad_vals)$/;"	f	namespace:miniFE
+compute_gradients_psi	src/perform_element_loop.hpp	/^compute_gradients_psi(std::vector<Scalar>& gradients, std::vector<Scalar>& psi)$/;"	f	namespace:miniFE
+compute_imbalance	utils/imbalance.hpp	/^compute_imbalance(const Box& global_box,$/;"	f	namespace:miniFE
+compute_matrix_stats	utils/compute_matrix_stats.hpp	/^compute_matrix_stats(const MatrixType& A, int myproc, int numprocs, YAML_Doc& ydoc)$/;"	f	namespace:miniFE
+compute_std_dev_as_percentage	utils/utils.hpp	/^Scalar compute_std_dev_as_percentage(Scalar local_nrows,$/;"	f	namespace:miniFE
+computed	fem/verify_solution.hpp	/^  Scalar computed;$/;"	m	struct:miniFE::err_info
+convert	src/CudaUtils.h	/^  struct convert {$/;"	s	namespace:miniFE
+convert_double_to_string	src/YAML_Element.cpp	/^string YAML_Element::convert_double_to_string(double value_arg){$/;"	f	class:YAML_Element
+convert_int_to_string	src/YAML_Element.cpp	/^string YAML_Element::convert_int_to_string(int value_arg){$/;"	f	class:YAML_Element
+convert_long_long_to_string	src/YAML_Element.cpp	/^string YAML_Element::convert_long_long_to_string(long long value_arg){$/;"	f	class:YAML_Element
+convert_size_t_to_string	src/YAML_Element.cpp	/^string YAML_Element::convert_size_t_to_string(size_t value_arg){$/;"	f	class:YAML_Element
+coords	fem/verify_solution.hpp	/^  Scalar coords[3];$/;"	m	struct:miniFE::err_info
+copyElementsToBuffer	src/exchange_externals.hpp	/^  __global__ void copyElementsToBuffer(Scalar *src, Scalar *dst, Index *indices, int N) {$/;"	f	namespace:miniFE
+copyToDevice	src/CudaELLMatrix.hpp	/^  void copyToDevice() const {$/;"	f	struct:miniFE::CudaELLMatrix
+copyToDevice	src/Vector.hpp	/^  void copyToDevice(LocalOrdinal startIndex=0) const {$/;"	f	struct:miniFE::Vector
+copyToDeviceAsync	src/Vector.hpp	/^  void copyToDeviceAsync(LocalOrdinal startIndex=0,cudaStream_t s=0) const {$/;"	f	struct:miniFE::Vector
+copyToHost	src/CudaELLMatrix.hpp	/^  void copyToHost() const {$/;"	f	struct:miniFE::CudaELLMatrix
+copyToHost	src/Vector.hpp	/^  void copyToHost(LocalOrdinal startIndex=0) const {$/;"	f	struct:miniFE::Vector
+copyToHostAsync	src/Vector.hpp	/^  void copyToHostAsync(LocalOrdinal startIndex=0,cudaStream_t s=0) const {$/;"	f	struct:miniFE::Vector
+copy_box	utils/box_utils.hpp	/^inline void copy_box(const Box& from_box, Box& to_box)$/;"	f	namespace:miniFE
+createExternalMapping	src/SparseMatrix_functions.hpp	/^      __global__ void createExternalMapping(MatrixType A) {$/;"	f	namespace:miniFE
+create_map_id_to_row	utils/box_utils.hpp	/^void create_map_id_to_row(int global_nx, int global_ny, int global_nz,$/;"	f	namespace:miniFE
+cudaCheckError	src/CudaUtils.h	23;"	d
+cudaMemset_custom	src/CudaUtils.h	/^__inline__ void cudaMemset_custom(T* mem, const T val, int N, cudaStream_t s) {$/;"	f	namespace:miniFE
+cudaMemset_kernel	src/CudaUtils.h	/^__global__ void cudaMemset_kernel(T* mem, T val, int N) {$/;"	f	namespace:miniFE
+cuda_map	src/simple_mesh_description.hpp	/^  cuda_map_ids_to_rows<GlobalOrdinal> cuda_map;$/;"	m	class:miniFE::simple_mesh_description
+cuda_map_ids_to_rows	src/simple_mesh_description.hpp	/^struct cuda_map_ids_to_rows {$/;"	s	namespace:miniFE
+d_coefs	src/CudaELLMatrix.hpp	/^  thrust::device_vector<Scalar>        d_coefs;$/;"	m	struct:miniFE::CudaELLMatrix
+d_coefs	src/Vector.hpp	/^  thrust::device_vector<Scalar> d_coefs;$/;"	m	struct:miniFE::Vector
+d_cols	src/CudaELLMatrix.hpp	/^  thrust::device_vector<GlobalOrdinal> d_cols;$/;"	m	struct:miniFE::CudaELLMatrix
+d_elements_to_send	src/CudaELLMatrix.hpp	/^  thrust::device_vector<GlobalOrdinal> d_elements_to_send;$/;"	m	struct:miniFE::CudaELLMatrix
+d_external_map	src/CudaELLMatrix.hpp	/^  thrust::device_vector<int> d_external_map;$/;"	m	struct:miniFE::CudaELLMatrix
+d_ids	src/simple_mesh_description.hpp	/^  thrust::device_vector<GlobalOrdinal> d_ids;$/;"	m	struct:miniFE::cuda_map_ids_to_rows
+d_rows	src/CudaELLMatrix.hpp	/^  thrust::device_vector<GlobalOrdinal> d_rows;$/;"	m	struct:miniFE::CudaELLMatrix
+d_rows	src/simple_mesh_description.hpp	/^  thrust::device_vector<GlobalOrdinal> d_rows;$/;"	m	struct:miniFE::cuda_map_ids_to_rows
+d_send_buffer	src/CudaELLMatrix.hpp	/^  thrust::device_vector<Scalar> d_send_buffer;$/;"	m	struct:miniFE::CudaELLMatrix
+decide_how_to_grow	utils/imbalance.hpp	/^decide_how_to_grow(const Box& global_box, const Box& local_box)$/;"	f	namespace:miniFE
+decide_how_to_shrink	utils/imbalance.hpp	/^decide_how_to_shrink(const Box& global_box, const Box& local_box)$/;"	f	namespace:miniFE
+destinationDirectory	src/YAML_Doc.hpp	/^  std::string destinationDirectory;$/;"	m	class:YAML_Doc
+destinationFileName	src/YAML_Doc.hpp	/^  std::string destinationFileName;$/;"	m	class:YAML_Doc
+determinant3x3	fem/matrix_algebra_3x3.hpp	/^KERNEL_PREFIX Scalar determinant3x3(const Scalar* J)$/;"	f	namespace:miniFE
+device	utils/Parameters.hpp	/^  int device;$/;"	m	struct:miniFE::Parameters
+diffusionMatrix_symm	fem/Hex8.hpp	/^KERNEL_PREFIX void diffusionMatrix_symm(const Scalar* elemNodeCoords,$/;"	f	namespace:miniFE::Hex8
+diffusionMatrix_symm	src/CudaHex8.hpp	/^      __device__  __inline__ void diffusionMatrix_symm(const Scalar elemNodeCoords[Hex8::spatialDim],$/;"	f	namespace:miniFE::Hex8
+diffusion_matrix_device	src/CudaHex8.hpp	/^      __device__ __inline__ void diffusion_matrix_device(Scalar elem_mat[Hex8::numNodesPerElem*(Hex8::numNodesPerElem+1)\/2], Scalar invJ_grad_vals[numNodesPerElem*spatialDim], Scalar k_detJ_wi_wj_wk)$/;"	f	namespace:miniFE::Hex8
+dot	src/Vector_functions.hpp	/^  dot(const Vector& x,$/;"	f	namespace:miniFE
+dot_final_reduce_kernel	src/Vector_functions.hpp	/^__global__ void dot_final_reduce_kernel(Scalar *d) {$/;"	f	namespace:miniFE
+dot_kernel	src/Vector_functions.hpp	/^__global__ void dot_kernel(const Vector x, const Vector y, typename TypeTraits<typename Vector::ScalarType>::magnitude_type *d) {$/;"	f	namespace:miniFE
+driver	src/driver.hpp	/^driver(const Box& global_box, Box& my_box,$/;"	f	namespace:miniFE
+e1	src/CudaUtils.cu	/^  cudaEvent_t CudaManager::e1;$/;"	m	class:miniFE::CudaManager	file:
+e1	src/CudaUtils.h	/^    static cudaEvent_t e1;$/;"	m	class:miniFE::CudaManager
+e2	src/CudaUtils.cu	/^  cudaEvent_t CudaManager::e2;$/;"	m	class:miniFE::CudaManager	file:
+e2	src/CudaUtils.h	/^    static cudaEvent_t e2;$/;"	m	class:miniFE::CudaManager
+elemIDs	src/GetNodesCoords.hpp	/^  GlobalOrdinal* elemIDs;$/;"	m	struct:GetNodesCoords
+elem_diffusion_matrix	fem/ElemData.hpp	/^  Scalar elem_diffusion_matrix[(Hex8::numNodesPerElem*(Hex8::numNodesPerElem+1))\/2];$/;"	m	struct:miniFE::ElemData
+elem_diffusion_matrix	fem/ElemData.hpp	/^  Scalar* elem_diffusion_matrix;$/;"	m	struct:miniFE::ElemDataPtr
+elem_group_size	utils/Parameters.hpp	/^  int elem_group_size;$/;"	m	struct:miniFE::Parameters
+elem_node_coords	fem/ElemData.hpp	/^  Scalar elem_node_coords[(Hex8::numNodesPerElem*(Hex8::spatialDim+1))\/2];$/;"	m	struct:miniFE::ElemDataPtr
+elem_node_coords	fem/ElemData.hpp	/^  Scalar elem_node_coords[Hex8::numNodesPerElem*Hex8::spatialDim];$/;"	m	struct:miniFE::ElemData
+elem_node_coords	src/GetNodesCoords.hpp	/^  Scalar* elem_node_coords;$/;"	m	struct:GetNodesCoords
+elem_node_ids	fem/ElemData.hpp	/^  GlobalOrdinal elem_node_ids[Hex8::numNodesPerElem];$/;"	m	struct:miniFE::ElemData
+elem_node_ids	fem/ElemData.hpp	/^  GlobalOrdinal elem_node_ids[Hex8::numNodesPerElem];$/;"	m	struct:miniFE::ElemDataPtr
+elem_source_vector	fem/ElemData.hpp	/^  Scalar elem_source_vector[Hex8::numNodesPerElem];$/;"	m	struct:miniFE::ElemData
+elem_source_vector	fem/ElemData.hpp	/^  Scalar* elem_source_vector;$/;"	m	struct:miniFE::ElemDataPtr
+element_loop_kernel	src/perform_element_loop.hpp	/^void element_loop_kernel($/;"	f	namespace:miniFE
+elements_to_send	src/CudaELLMatrix.hpp	/^  std::vector<GlobalOrdinal> elements_to_send;$/;"	m	struct:miniFE::CudaELLMatrix
+end	utils/BoxIterator.hpp	/^  static BoxIterator end(const Box& box)$/;"	f	class:miniFE::BoxIterator
+err	fem/verify_solution.hpp	/^  Scalar err;$/;"	m	struct:miniFE::err_info
+err_info	fem/verify_solution.hpp	/^struct err_info {$/;"	s	namespace:miniFE
+exch_ext_requests	src/exchange_externals.hpp	/^static std::vector<MPI_Request> exch_ext_requests;$/;"	m	namespace:miniFE
+exchange_externals	src/exchange_externals.hpp	/^exchange_externals(MatrixType& A,$/;"	f	namespace:miniFE
+exchtime	src/SparseMatrix_functions.hpp	/^  static timer_type exchtime = 0;$/;"	m	namespace:miniFE
+external_index	src/CudaELLMatrix.hpp	/^  std::vector<GlobalOrdinal> external_index;$/;"	m	struct:miniFE::CudaELLMatrix
+external_local_index	src/CudaELLMatrix.hpp	/^  std::vector<GlobalOrdinal>  external_local_index;$/;"	m	struct:miniFE::CudaELLMatrix
+external_map	src/CudaELLMatrix.hpp	/^  int                         *external_map;$/;"	m	struct:miniFE::PODELLMatrix
+fcn	fem/analytic_soln.hpp	/^inline Scalar fcn(int n, Scalar u)$/;"	f	namespace:miniFE
+fcn_l	fem/analytic_soln.hpp	/^inline Scalar fcn_l(int p, int q)$/;"	f	namespace:miniFE
+fill	fem/matrix_algebra_3x3.hpp	/^KERNEL_PREFIX void fill(Scalar* begin, Scalar* end, const Scalar& val)$/;"	f	namespace:miniFE
+finalize	src/CudaUtils.h	/^    static void finalize() {$/;"	f	class:miniFE::CudaManager
+finalize_mpi	utils/utils.cpp	/^void finalize_mpi()$/;"	f	namespace:miniFE
+find_row_for_id	src/simple_mesh_description.hpp	/^  GlobalOrdinal find_row_for_id(const GlobalOrdinal id) const {$/;"	f	struct:miniFE::PODMap
+find_row_for_id	utils/utils.hpp	/^GlobalOrdinal find_row_for_id(GlobalOrdinal id,$/;"	f	namespace:miniFE
+finish_exchange_externals	src/exchange_externals.hpp	/^finish_exchange_externals(MatrixType &A, VectorType &x)$/;"	f	namespace:miniFE
+gauss_pts	fem/gauss_pts.hpp	/^KERNEL_PREFIX void gauss_pts(int N, Scalar* pts, Scalar* wts)$/;"	f	namespace:miniFE
+gauss_pts	src/perform_element_loop.hpp	/^void gauss_pts(int N,  Scalar* wts)$/;"	f	namespace:miniFE
+gauss_pts_c	src/CudaHex8.hpp	/^    __constant__ MINIFE_SCALAR gauss_pts_c[numGaussPointsPerDim];$/;"	m	namespace:miniFE::Hex8
+generateYAML	src/YAML_Doc.cpp	/^string YAML_Doc::generateYAML(){$/;"	f	class:YAML_Doc
+generate_matrix_structure	src/generate_matrix_structure.hpp	/^generate_matrix_structure(const simple_mesh_description<typename MatrixType::GlobalOrdinalType>& mesh,$/;"	f	namespace:miniFE
+generate_matrix_structure_kernel	src/generate_matrix_structure.hpp	/^generate_matrix_structure_kernel(MeshType mesh, MatrixType A, int size_x, int size_y, int size_z) {$/;"	f	namespace:miniFE
+generate_matrix_structure_kernel_old	src/generate_matrix_structure.hpp	/^generate_matrix_structure_kernel_old(MeshType mesh, MatrixType A, int size_x, int size_y, int size_z) {$/;"	f	namespace:miniFE
+get	src/YAML_Element.cpp	/^YAML_Element* YAML_Element::get(const std::string& key_arg) {$/;"	f	class:YAML_Element
+getKey	src/YAML_Element.hpp	/^  std::string getKey(){return key;}$/;"	f	class:YAML_Element
+getPOD	src/CudaELLMatrix.hpp	/^  PODELLMatrix<Scalar,LocalOrdinal,GlobalOrdinal> getPOD() {$/;"	f	struct:miniFE::CudaELLMatrix
+getPOD	src/Vector.hpp	/^  PODVector<Scalar,LocalOrdinal,GlobalOrdinal> getPOD() const {$/;"	f	struct:miniFE::Vector
+getPOD	src/make_local_matrix.hpp	/^    PODColMarkMap<GlobalOrdinal> getPOD() {$/;"	f	class:miniFE::ColMarkMap
+getPOD	src/simple_mesh_description.hpp	/^  PODMap<GlobalOrdinal> getPOD() const {$/;"	f	struct:miniFE::cuda_map_ids_to_rows
+getPOD	src/simple_mesh_description.hpp	/^  PODMesh<GlobalOrdinal> getPOD() const {$/;"	f	class:miniFE::simple_mesh_description
+get_coords	utils/box_utils.hpp	/^void get_coords(GlobalOrdinal ID, int nx, int ny, int nz,$/;"	f	namespace:miniFE
+get_elem_coords	src/Hex8_box_utils.hpp	/^get_elem_coords(const MeshType &mesh, GlobalOrdinal elemID, Scalar* node_coords)$/;"	f	namespace:miniFE
+get_elem_node_ids	src/Hex8_box_utils.hpp	/^get_elem_node_ids(const MeshType &mesh, GlobalOrdinal elemID, Scalar* node_ids)$/;"	f	namespace:miniFE
+get_ghost_ids	utils/box_utils.hpp	/^void get_ghost_ids(int nx, int ny, int nz,$/;"	f	namespace:miniFE
+get_global_min_max	utils/utils.hpp	/^void get_global_min_max(GlobalOrdinal local_n,$/;"	f	namespace:miniFE
+get_hex8_node_coords_3d	src/Hex8_box_utils.hpp	/^void get_hex8_node_coords_3d(Scalar x, Scalar y, Scalar z,$/;"	f	namespace:miniFE
+get_hex8_node_ids	src/Hex8_box_utils.hpp	/^void get_hex8_node_ids(int nx, int ny,$/;"	f	namespace:miniFE
+get_id	utils/box_utils.hpp	/^GlobalOrdinal get_id(int nx, int ny, int nz,$/;"	f	namespace:miniFE
+get_ids	utils/box_utils.hpp	/^void get_ids(int nx, int ny, int nz,$/;"	f	namespace:miniFE
+get_int_coords	utils/box_utils.hpp	/^void get_int_coords(GlobalOrdinal ID, int nx, int ny, int nz,$/;"	f	namespace:miniFE
+get_local_row	src/CudaELLMatrix.hpp	/^  LocalOrdinalType get_local_row(GlobalOrdinalType row) {$/;"	f	struct:miniFE::CudaELLMatrix
+get_num_ids	utils/box_utils.hpp	/^GlobalOrdinal get_num_ids(const Box& box)$/;"	f	namespace:miniFE
+get_parameters	utils/utils.cpp	/^void get_parameters(int argc, char** argv, Parameters& params)$/;"	f	namespace:miniFE
+get_range	src/SparseMatrix_functions.hpp	/^  __device__ __inline__ MATVEC_RANGE get_range(int mask, int bit) {$/;"	f	namespace:miniFE
+get_row_pointers	src/CudaELLMatrix.hpp	/^  void get_row_pointers(GlobalOrdinalType row, size_t& row_length,$/;"	f	struct:miniFE::CudaELLMatrix
+global_box	src/simple_mesh_description.hpp	/^  Box global_box;$/;"	m	class:miniFE::simple_mesh_description
+global_elems_x	src/simple_mesh_description.hpp	/^  int global_elems_x;$/;"	m	struct:miniFE::PODMesh
+global_elems_y	src/simple_mesh_description.hpp	/^  int global_elems_y;$/;"	m	struct:miniFE::PODMesh
+global_elems_z	src/simple_mesh_description.hpp	/^  int global_elems_z;$/;"	m	struct:miniFE::PODMesh
+grad_vals	fem/ElemData.hpp	/^  Scalar grad_vals[Hex8::numGaussPointsPerDim * Hex8::numGaussPointsPerDim * Hex8::numGaussPointsPerDim * Hex8::numNodesPerElem * Hex8::spatialDim];$/;"	m	struct:miniFE::ElemData
+grad_vals	fem/ElemData.hpp	/^  Scalar grad_vals[Hex8::numGaussPointsPerDim * Hex8::numGaussPointsPerDim * Hex8::numGaussPointsPerDim * Hex8::numNodesPerElem * Hex8::spatialDim];$/;"	m	struct:miniFE::ElemDataPtr
+gradients	fem/Hex8.hpp	/^KERNEL_PREFIX void gradients(const Scalar* x, Scalar* values_per_fn)$/;"	f	namespace:miniFE::Hex8
+gradients_and_detJ	fem/Hex8.hpp	/^KERNEL_PREFIX void gradients_and_detJ(const Scalar* elemNodeCoords,$/;"	f	namespace:miniFE::Hex8
+gradients_and_invJ_and_detJ	fem/Hex8.hpp	/^KERNEL_PREFIX void gradients_and_invJ_and_detJ(const Scalar* elemNodeCoords,$/;"	f	namespace:miniFE::Hex8
+gradients_and_psi	src/perform_element_loop.hpp	/^void gradients_and_psi(const Scalar* x, Scalar* gradients, Scalar *psi)$/;"	f	namespace:miniFE
+has_local_indices	src/CudaELLMatrix.hpp	/^  bool                       has_local_indices;$/;"	m	struct:miniFE::CudaELLMatrix
+hash	src/make_local_matrix.hpp	/^    __device__ __inline__ GlobalOrdinal hash(GlobalOrdinal a) {$/;"	f	struct:miniFE::PODColMarkMap
+i	src/CudaUtils.h	/^      int i;$/;"	m	union:miniFE::convert::__anon2
+ids	src/simple_mesh_description.hpp	/^  GlobalOrdinal *ids;$/;"	m	struct:miniFE::PODMap
+impose_dirichlet	src/SparseMatrix_functions.hpp	/^      impose_dirichlet(typename MatrixType::ScalarType prescribed_value,$/;"	f	namespace:miniFE
+impose_dirichlet_first_kernel	src/SparseMatrix_functions.hpp	/^    impose_dirichlet_first_kernel(typename MatrixType::ScalarType prescribed_value,$/;"	f	namespace:miniFE
+impose_dirichlet_second_kernel	src/SparseMatrix_functions.hpp	/^    impose_dirichlet_second_kernel(typename MatrixType::ScalarType prescribed_value,$/;"	f	namespace:miniFE
+initialize	src/CudaUtils.h	/^    static void initialize() {$/;"	f	class:miniFE::CudaManager
+initialize_mpi	utils/utils.cpp	/^void initialize_mpi(int argc, char** argv, int& numprocs, int& myproc)$/;"	f	namespace:miniFE
+initialized	src/CudaUtils.cu	/^  bool CudaManager::initialized=false;$/;"	m	class:miniFE::CudaManager	file:
+initialized	src/CudaUtils.h	/^    static bool initialized;$/;"	m	class:miniFE::CudaManager
+insert	src/make_local_matrix.hpp	/^    __device__ __inline__ void insert(GlobalOrdinal i) {$/;"	f	struct:miniFE::PODColMarkMap
+intuint	src/SparseMatrix_functions.hpp	/^    struct intuint {$/;"	s	namespace:miniFE
+intuint	src/SparseMatrix_functions.hpp	/^    struct intuint<char> {$/;"	s	namespace:miniFE
+intuint	src/SparseMatrix_functions.hpp	/^    struct intuint<int> {$/;"	s	namespace:miniFE
+intuint	src/SparseMatrix_functions.hpp	/^    struct intuint<long> {$/;"	s	namespace:miniFE
+intuint	src/SparseMatrix_functions.hpp	/^    struct intuint<short> {$/;"	s	namespace:miniFE
+inverse_and_determinant3x3	fem/matrix_algebra_3x3.hpp	/^KERNEL_PREFIX void inverse_and_determinant3x3(const Scalar* J, Scalar* invJ, Scalar& detJ)$/;"	f	namespace:miniFE
+is_neighbor	utils/box_utils.hpp	/^bool is_neighbor(const Box& box1, const Box& box2)$/;"	f	namespace:miniFE
+ival	src/SparseMatrix_functions.hpp	/^        GlobalOrdinal ival;$/;"	m	union:miniFE::intuint::__anon3
+ival	src/SparseMatrix_functions.hpp	/^        char ival;$/;"	m	union:miniFE::intuint::__anon4
+ival	src/SparseMatrix_functions.hpp	/^        int ival;$/;"	m	union:miniFE::intuint::__anon6
+ival	src/SparseMatrix_functions.hpp	/^        long ival;$/;"	m	union:miniFE::intuint::__anon7
+ival	src/SparseMatrix_functions.hpp	/^        short ival;$/;"	m	union:miniFE::intuint::__anon5
+key	src/YAML_Element.hpp	/^  std::string key;$/;"	m	class:YAML_Element
+load_imbalance	utils/Parameters.hpp	/^  float load_imbalance;$/;"	m	struct:miniFE::Parameters
+local_box	src/simple_mesh_description.hpp	/^  Box local_box;$/;"	m	class:miniFE::simple_mesh_description
+local_box	src/simple_mesh_description.hpp	/^  Box local_box;$/;"	m	struct:miniFE::PODMesh
+local_size	src/Vector.hpp	/^  LocalOrdinal local_size;$/;"	m	struct:miniFE::Vector
+lowerBound	src/CudaUtils.h	/^  GlobalOrdinal lowerBound(const GlobalOrdinal *ptr, GlobalOrdinal low, GlobalOrdinal high, const GlobalOrdinal val) {$/;"	f	namespace:miniFE
+magnitude_type	utils/TypeTraits.hpp	/^  typedef double magnitude_type;$/;"	t	struct:miniFE::TypeTraits
+magnitude_type	utils/TypeTraits.hpp	/^  typedef float magnitude_type;$/;"	t	struct:miniFE::TypeTraits
+magnitude_type	utils/TypeTraits.hpp	/^  typedef int magnitude_type;$/;"	t	struct:miniFE::TypeTraits
+magnitude_type	utils/TypeTraits.hpp	/^  typedef long int magnitude_type;$/;"	t	struct:miniFE::TypeTraits
+magnitude_type	utils/TypeTraits.hpp	/^  typedef long long magnitude_type;$/;"	t	struct:miniFE::TypeTraits
+magnitude_type	utils/TypeTraits.hpp	/^  typedef unsigned magnitude_type;$/;"	t	struct:miniFE::TypeTraits
+main	src/main.cu	/^int main(int argc, char** argv) {$/;"	f
+main	utils/BoxPartition.cpp	/^int main( int argc , char * argv[] )$/;"	f
+make_local_matrix	src/make_local_matrix.hpp	/^make_local_matrix(MatrixType& A)$/;"	f	namespace:miniFE
+map_id_to_row	src/simple_mesh_description.hpp	/^  GlobalOrdinal map_id_to_row(const GlobalOrdinal& id) const$/;"	f	class:miniFE::simple_mesh_description
+map_ids_to_rows	src/simple_mesh_description.hpp	/^  PODMap<GlobalOrdinal> map_ids_to_rows;$/;"	m	struct:miniFE::PODMesh
+map_ids_to_rows	src/simple_mesh_description.hpp	/^  std::map<GlobalOrdinal,GlobalOrdinal> map_ids_to_rows;$/;"	m	class:miniFE::simple_mesh_description
+markExternalColumnsInMap	src/make_local_matrix.hpp	/^__global__ void markExternalColumnsInMap(MatrixType A, MapType map)$/;"	f	namespace:miniFE
+matTransMat3x3_X_3xn	fem/matrix_algebra_3x3.hpp	/^KERNEL_PREFIX void matTransMat3x3_X_3xn(const Scalar* A, int n, const Scalar* B, Scalar* C)$/;"	f	namespace:miniFE
+matmat3x3	fem/matrix_algebra_3x3.hpp	/^KERNEL_PREFIX void matmat3x3(const Scalar* A, const Scalar* B, Scalar* C)$/;"	f	namespace:miniFE
+matmat3x3_X_3xn	fem/matrix_algebra_3x3.hpp	/^KERNEL_PREFIX void matmat3x3_X_3xn(const Scalar* A, int n, const Scalar* B, Scalar* C)$/;"	f	namespace:miniFE
+matvec_ell_kernel	src/SparseMatrix_functions.hpp	/^      __global__ void matvec_ell_kernel(MatrixType A, VectorType X, VectorType Y) {$/;"	f	namespace:miniFE
+matvec_overlap_ell_kernel	src/SparseMatrix_functions.hpp	/^      __global__ void matvec_overlap_ell_kernel(MatrixType A, VectorType X, VectorType Y) {$/;"	f	namespace:miniFE
+matvec_std	src/SparseMatrix_functions.hpp	/^      struct matvec_std {$/;"	s	namespace:miniFE
+mesh	src/GetNodesCoords.hpp	/^  const miniFE::simple_mesh_description<GlobalOrdinal>* mesh;$/;"	m	struct:GetNodesCoords
+miniAppName	src/YAML_Doc.hpp	/^  std::string miniAppName;$/;"	m	class:YAML_Doc
+miniAppVersion	src/YAML_Doc.hpp	/^  std::string miniAppVersion;$/;"	m	class:YAML_Doc
+miniFE	fem/ElemData.hpp	/^namespace miniFE {$/;"	n
+miniFE	fem/Hex8.hpp	/^namespace miniFE {$/;"	n
+miniFE	fem/Hex8_ElemData.hpp	/^namespace miniFE {$/;"	n
+miniFE	fem/Hex8_enums.hpp	/^namespace miniFE {$/;"	n
+miniFE	fem/analytic_soln.hpp	/^namespace miniFE {$/;"	n
+miniFE	fem/gauss_pts.hpp	/^namespace miniFE {$/;"	n
+miniFE	fem/matrix_algebra_3x3.hpp	/^namespace miniFE {$/;"	n
+miniFE	fem/verify_solution.hpp	/^namespace miniFE {$/;"	n
+miniFE	src/CudaELLMatrix.hpp	/^namespace miniFE {$/;"	n
+miniFE	src/CudaHex8.hpp	/^namespace miniFE {$/;"	n
+miniFE	src/CudaUtils.cu	/^namespace miniFE {$/;"	n	file:
+miniFE	src/CudaUtils.h	/^namespace miniFE {$/;"	n
+miniFE	src/Hex8_box_utils.hpp	/^namespace miniFE {$/;"	n
+miniFE	src/SparseMatrix_functions.hpp	/^namespace miniFE {$/;"	n
+miniFE	src/Vector.hpp	/^namespace miniFE {$/;"	n
+miniFE	src/Vector_functions.hpp	/^namespace miniFE {$/;"	n
+miniFE	src/assemble_FE_data.hpp	/^namespace miniFE {$/;"	n
+miniFE	src/cg_solve.hpp	/^namespace miniFE {$/;"	n
+miniFE	src/driver.hpp	/^namespace miniFE {$/;"	n
+miniFE	src/exchange_externals.hpp	/^namespace miniFE {$/;"	n
+miniFE	src/generate_matrix_structure.hpp	/^namespace miniFE {$/;"	n
+miniFE	src/make_local_matrix.hpp	/^namespace miniFE {$/;"	n
+miniFE	src/perform_element_loop.hpp	/^namespace miniFE {$/;"	n
+miniFE	src/simple_mesh_description.hpp	/^namespace miniFE {$/;"	n
+miniFE	src/time_kernels.hpp	/^namespace miniFE {$/;"	n
+miniFE	utils/BoxIterator.hpp	/^namespace miniFE {$/;"	n
+miniFE	utils/Parameters.hpp	/^namespace miniFE {$/;"	n
+miniFE	utils/TypeTraits.hpp	/^namespace miniFE {$/;"	n
+miniFE	utils/box_utils.hpp	/^namespace miniFE {$/;"	n
+miniFE	utils/compute_matrix_stats.hpp	/^namespace miniFE {$/;"	n
+miniFE	utils/imbalance.hpp	/^namespace miniFE {$/;"	n
+miniFE	utils/mytimer.cpp	/^namespace miniFE {$/;"	n	file:
+miniFE	utils/mytimer.hpp	/^namespace miniFE {$/;"	n
+miniFE	utils/utils.cpp	/^namespace miniFE {$/;"	n	file:
+miniFE	utils/utils.hpp	/^namespace miniFE {$/;"	n
+miniFEAtomicAdd	src/CudaUtils.h	/^__device__ __inline__ double miniFEAtomicAdd(double* address, double val)$/;"	f
+miniFE_info_hpp	src/miniFE_info.hpp	2;"	d
+miniFE_no_info_hpp	utils/miniFE_no_info.hpp	29;"	d
+mpi_type	utils/TypeTraits.hpp	/^  static MPI_Datatype mpi_type() {return MPI_COMPLEX;}$/;"	f	struct:miniFE::TypeTraits
+mpi_type	utils/TypeTraits.hpp	/^  static MPI_Datatype mpi_type() {return MPI_DOUBLE;}$/;"	f	struct:miniFE::TypeTraits
+mpi_type	utils/TypeTraits.hpp	/^  static MPI_Datatype mpi_type() {return MPI_DOUBLE_COMPLEX;}$/;"	f	struct:miniFE::TypeTraits
+mpi_type	utils/TypeTraits.hpp	/^  static MPI_Datatype mpi_type() {return MPI_FLOAT;}$/;"	f	struct:miniFE::TypeTraits
+mpi_type	utils/TypeTraits.hpp	/^  static MPI_Datatype mpi_type() {return MPI_INT;}$/;"	f	struct:miniFE::TypeTraits
+mpi_type	utils/TypeTraits.hpp	/^  static MPI_Datatype mpi_type() {return MPI_LONG;}$/;"	f	struct:miniFE::TypeTraits
+mpi_type	utils/TypeTraits.hpp	/^  static MPI_Datatype mpi_type() {return MPI_LONG_LONG;}$/;"	f	struct:miniFE::TypeTraits
+mpi_type	utils/TypeTraits.hpp	/^  static MPI_Datatype mpi_type() {return MPI_UNSIGNED;}$/;"	f	struct:miniFE::TypeTraits
+mv_overlap_comm_comp	utils/Parameters.hpp	/^  int mv_overlap_comm_comp;$/;"	m	struct:miniFE::Parameters
+mytimer	utils/mytimer.cpp	/^timer_type mytimer()$/;"	f	namespace:miniFE
+n	src/Vector.hpp	/^  LocalOrdinal n;$/;"	m	struct:miniFE::PODVector
+n	src/simple_mesh_description.hpp	/^  GlobalOrdinal n;$/;"	m	struct:miniFE::PODMap
+name	utils/Parameters.hpp	/^  std::string name;$/;"	m	struct:miniFE::Parameters
+name	utils/TypeTraits.hpp	/^  static const char* name() {return "double";}$/;"	f	struct:miniFE::TypeTraits
+name	utils/TypeTraits.hpp	/^  static const char* name() {return "float";}$/;"	f	struct:miniFE::TypeTraits
+name	utils/TypeTraits.hpp	/^  static const char* name() {return "int";}$/;"	f	struct:miniFE::TypeTraits
+name	utils/TypeTraits.hpp	/^  static const char* name() {return "long int";}$/;"	f	struct:miniFE::TypeTraits
+name	utils/TypeTraits.hpp	/^  static const char* name() {return "long long";}$/;"	f	struct:miniFE::TypeTraits
+name	utils/TypeTraits.hpp	/^  static const char* name() {return "std::complex<double>";}$/;"	f	struct:miniFE::TypeTraits
+name	utils/TypeTraits.hpp	/^  static const char* name() {return "std::complex<float>";}$/;"	f	struct:miniFE::TypeTraits
+name	utils/TypeTraits.hpp	/^  static const char* name() {return "unsigned";}$/;"	f	struct:miniFE::TypeTraits
+neighbors	src/CudaELLMatrix.hpp	/^  std::vector<int>           neighbors;$/;"	m	struct:miniFE::CudaELLMatrix
+node_ordinals	src/GetNodesCoords.hpp	/^  GlobalOrdinal* node_ordinals;$/;"	m	struct:GetNodesCoords
+nodes_per_elem	fem/ElemData.hpp	/^  const size_t nodes_per_elem;$/;"	m	struct:miniFE::ElemData
+nodes_per_elem	fem/ElemData.hpp	/^  const size_t nodes_per_elem;$/;"	m	struct:miniFE::ElemDataPtr
+numGaussPointsPerDim	fem/Hex8_enums.hpp	/^  numGaussPointsPerDim = 2$/;"	e	enum:miniFE::Hex8::__anon1
+numNodesPerElem	fem/Hex8_enums.hpp	/^  numNodesPerElem = 8,$/;"	e	enum:miniFE::Hex8::__anon1
+num_cols	src/CudaELLMatrix.hpp	/^  LocalOrdinal               num_cols;$/;"	m	struct:miniFE::CudaELLMatrix
+num_cols_per_row	src/CudaELLMatrix.hpp	/^  LocalOrdinal                num_cols_per_row;$/;"	m	struct:miniFE::PODELLMatrix
+num_cols_per_row	src/CudaELLMatrix.hpp	/^  LocalOrdinal               num_cols_per_row;$/;"	m	struct:miniFE::CudaELLMatrix
+num_devices	utils/Parameters.hpp	/^  int num_devices;$/;"	m	struct:miniFE::Parameters
+num_nonzeros	src/CudaELLMatrix.hpp	/^  size_t num_nonzeros() const$/;"	f	struct:miniFE::CudaELLMatrix
+num_rows	src/CudaELLMatrix.hpp	/^  GlobalOrdinal               num_rows;$/;"	m	struct:miniFE::PODELLMatrix
+numa	utils/Parameters.hpp	/^  int numa;$/;"	m	struct:miniFE::Parameters
+numthreads	utils/Parameters.hpp	/^  int numthreads;$/;"	m	struct:miniFE::Parameters
+nx	utils/Parameters.hpp	/^  int nx;$/;"	m	struct:miniFE::Parameters
+ny	utils/Parameters.hpp	/^  int ny;$/;"	m	struct:miniFE::Parameters
+nz	utils/Parameters.hpp	/^  int nz;$/;"	m	struct:miniFE::Parameters
+operator !=	utils/BoxIterator.hpp	/^  bool operator!=(const BoxIterator& rhs) const$/;"	f	class:miniFE::BoxIterator
+operator ()	src/GetNodesCoords.hpp	/^inline void operator()(int i)$/;"	f	struct:GetNodesCoords
+operator ()	src/SparseMatrix_functions.hpp	/^        void operator()(MatrixType& A,$/;"	f	struct:miniFE::matvec_std
+operator ++	utils/BoxIterator.hpp	/^  BoxIterator operator++(int)$/;"	f	class:miniFE::BoxIterator
+operator ++	utils/BoxIterator.hpp	/^  BoxIterator& operator++()$/;"	f	class:miniFE::BoxIterator
+operator =	utils/BoxIterator.hpp	/^  BoxIterator& operator=(const BoxIterator& src)$/;"	f	class:miniFE::BoxIterator
+operator ==	utils/BoxIterator.hpp	/^  bool operator==(const BoxIterator& rhs) const$/;"	f	class:miniFE::BoxIterator
+operator []	utils/Box.hpp	/^  const int* operator[](int xyz) const { return &ranges[xyz*2]; }$/;"	f	struct:Box
+operator []	utils/Box.hpp	/^  int* operator[](int xyz) { return &ranges[xyz*2]; }$/;"	f	struct:Box
+outstream	utils/outstream.hpp	/^std::ostream& outstream(int np=1, int p=0)$/;"	f
+parallel_memory_overhead_MB	src/SparseMatrix_functions.hpp	/^    parallel_memory_overhead_MB(const MatrixType& A)$/;"	f	namespace:miniFE
+parse_parameter	utils/param_utils.hpp	/^T parse_parameter(const std::string& arg_string,$/;"	f	namespace:Mantevo
+percentage_difference	utils/utils.hpp	/^Scalar percentage_difference(Scalar value, Scalar average)$/;"	f	namespace:miniFE
+perform_element_loop_cuda	src/perform_element_loop.hpp	/^perform_element_loop_cuda(const simple_mesh_description<typename MatrixType::GlobalOrdinalType>& mesh,$/;"	f	namespace:miniFE
+pitch	src/CudaELLMatrix.hpp	/^  GlobalOrdinal               pitch;$/;"	m	struct:miniFE::PODELLMatrix
+pitch	src/CudaELLMatrix.hpp	/^  GlobalOrdinal              pitch;$/;"	m	struct:miniFE::CudaELLMatrix
+pitchedBinarySearch	src/SparseMatrix_functions.hpp	/^    __device__  int inline pitchedBinarySearch(GlobalOrdinal *indices, GlobalOrdinal low, GlobalOrdinal high, GlobalOrdinal _val, const GlobalOrdinal pitch)$/;"	f	namespace:miniFE
+printYAML	src/YAML_Element.cpp	/^string YAML_Element::printYAML(std::string space){$/;"	f	class:YAML_Element
+print_box	src/main.cu	/^inline void print_box(int myproc, const char* name, const Box& box,$/;"	f
+print_box	utils/box_utils.hpp	/^ inline void print_box(int myproc, const char* name, const Box& box,$/;"	f	namespace:miniFE
+print_cuda_vec	src/cg_solve.hpp	/^void print_cuda_vec(const thrust::device_vector<Scalar>& vec, const std::string& name)$/;"	f	namespace:miniFE
+print_vec	src/cg_solve.hpp	/^void print_vec(const std::vector<Scalar>& vec, const std::string& name)$/;"	f	namespace:miniFE
+ranges	utils/Box.hpp	/^  int ranges[6];$/;"	m	struct:Box
+read_args_into_string	utils/param_utils.cpp	/^void read_args_into_string(int argc, char** argv, std::string& arg_string)$/;"	f	namespace:Mantevo
+read_file_into_string	utils/param_utils.cpp	/^void read_file_into_string(const std::string& filename,$/;"	f	namespace:Mantevo
+recv_length	src/CudaELLMatrix.hpp	/^  std::vector<LocalOrdinal>  recv_length;$/;"	m	struct:miniFE::CudaELLMatrix
+renumberExternals	src/make_local_matrix.hpp	/^__global__ void renumberExternals(MatrixType A, $/;"	f	namespace:miniFE
+renumberExternalsAndCount	src/make_local_matrix.hpp	/^void renumberExternalsAndCount(MatrixType A, typename MatrixType::GlobalOrdinalType start_row, typename MatrixType::GlobalOrdinalType stop_row, typename MatrixType::GlobalOrdinalType *num_externals) {$/;"	f	namespace:miniFE
+request	src/CudaELLMatrix.hpp	/^  std::vector<MPI_Request>   request;$/;"	m	struct:miniFE::CudaELLMatrix
+reserve_space	src/CudaELLMatrix.hpp	/^  void reserve_space(unsigned nrows, unsigned ncols_per_row)$/;"	f	struct:miniFE::CudaELLMatrix
+resize	src/make_local_matrix.hpp	/^    void resize(GlobalOrdinal size) {$/;"	f	class:miniFE::ColMarkMap
+resize_int	utils/BoxPartition.cpp	/^static void resize_int( int ** a , int * allocLen , int newLen )$/;"	f	file:
+rows	src/CudaELLMatrix.hpp	/^  GlobalOrdinal               *rows;$/;"	m	struct:miniFE::PODELLMatrix
+rows	src/CudaELLMatrix.hpp	/^  std::vector<GlobalOrdinal> rows;$/;"	m	struct:miniFE::CudaELLMatrix
+rows	src/simple_mesh_description.hpp	/^  GlobalOrdinal *rows;$/;"	m	struct:miniFE::PODMap
+s1	src/CudaUtils.cu	/^  cudaStream_t CudaManager::s1;$/;"	m	class:miniFE::CudaManager	file:
+s1	src/CudaUtils.h	/^    static cudaStream_t s1;$/;"	m	class:miniFE::CudaManager
+s2	src/CudaUtils.cu	/^  cudaStream_t CudaManager::s2;$/;"	m	class:miniFE::CudaManager	file:
+s2	src/CudaUtils.h	/^    static cudaStream_t s2;$/;"	m	class:miniFE::CudaManager
+send_buffer	src/CudaELLMatrix.hpp	/^  std::vector<Scalar>        send_buffer;$/;"	m	struct:miniFE::CudaELLMatrix
+send_length	src/CudaELLMatrix.hpp	/^  std::vector<LocalOrdinal>  send_length;$/;"	m	struct:miniFE::CudaELLMatrix
+setCudaDeviceFromRank	src/main.cu	/^void setCudaDeviceFromRank(miniFE::Parameters &params) {$/;"	f
+set_map	src/simple_mesh_description.hpp	/^  void set_map(const std::map<GlobalOrdinal,GlobalOrdinal> &map) {$/;"	f	struct:miniFE::cuda_map_ids_to_rows
+shape_fns	fem/Hex8.hpp	/^KERNEL_PREFIX void shape_fns(const Scalar* x, Scalar* values_at_nodes)$/;"	f	namespace:miniFE::Hex8
+simple_mesh_description	src/simple_mesh_description.hpp	/^  simple_mesh_description(const Box& global_box_in, const Box& local_box_in)$/;"	f	class:miniFE::simple_mesh_description
+simple_mesh_description	src/simple_mesh_description.hpp	/^class simple_mesh_description {$/;"	c	namespace:miniFE
+skip_device	utils/Parameters.hpp	/^  int skip_device;$/;"	m	struct:miniFE::Parameters
+soln	fem/analytic_soln.hpp	/^inline Scalar soln(Scalar x, Scalar y, Scalar z, int max_p, int max_q)$/;"	f	namespace:miniFE
+sourceVector	fem/Hex8.hpp	/^KERNEL_PREFIX void sourceVector(const Scalar* elemNodeCoords,$/;"	f	namespace:miniFE::Hex8
+sourceVector	src/CudaHex8.hpp	/^      __device__  __inline__ void sourceVector(const Scalar elemNodeCoords[Hex8::spatialDim],$/;"	f	namespace:miniFE::Hex8
+spatialDim	fem/Hex8_enums.hpp	/^  spatialDim = 3,$/;"	e	enum:miniFE::Hex8::__anon1
+startIndex	src/Vector.hpp	/^  GlobalOrdinal startIndex;$/;"	m	struct:miniFE::PODVector
+startIndex	src/Vector.hpp	/^  GlobalOrdinal startIndex;$/;"	m	struct:miniFE::Vector
+sum_into_global_linear_system_cuda	src/SparseMatrix_functions.hpp	/^    sum_into_global_linear_system_cuda(typename MatrixType::GlobalOrdinalType elem_node_ids[Hex8::numNodesPerElem], $/;"	f	namespace:miniFE
+sum_into_vector	src/Vector_functions.hpp	/^void sum_into_vector(size_t num_indices,$/;"	f	namespace:miniFE
+sum_into_vector_cuda	src/Vector_functions.hpp	/^void sum_into_vector_cuda(size_t num_indices,$/;"	f	namespace:miniFE
+swap	src/generate_matrix_structure.hpp	/^template<class T> __inline__ __device__ void swap(T &a, T &b) {$/;"	f	namespace:miniFE
+table	src/make_local_matrix.hpp	/^    GlobalOrdinal *table;$/;"	m	struct:miniFE::PODColMarkMap
+table	src/make_local_matrix.hpp	/^    thrust::device_vector<GlobalOrdinal> table;$/;"	m	class:miniFE::ColMarkMap
+table_size	src/make_local_matrix.hpp	/^    GlobalOrdinal table_size;$/;"	m	struct:miniFE::PODColMarkMap
+term0	fem/analytic_soln.hpp	/^const Scalar term0 = 16.0\/(PI_SQR);$/;"	m	namespace:miniFE
+test_box	utils/BoxPartition.cpp	/^static void test_box( const Box& box , const int np )$/;"	f	file:
+test_maps	utils/BoxPartition.cpp	/^static void test_maps( const Box& root_box , const int np )$/;"	f	file:
+time_kernels	src/time_kernels.hpp	/^time_kernels(OperatorType& A,$/;"	f	namespace:miniFE
+timer_type	utils/mytimer.hpp	/^typedef double timer_type;$/;"	t	namespace:miniFE
+try_update	src/make_local_matrix.hpp	/^    __device__ __inline__ bool try_update(GlobalOrdinal loc, GlobalOrdinal i) {$/;"	f	struct:miniFE::PODColMarkMap
+use_elem_mat_fields	utils/Parameters.hpp	/^  int use_elem_mat_fields;$/;"	m	struct:miniFE::Parameters
+use_locking	utils/Parameters.hpp	/^  int use_locking;$/;"	m	struct:miniFE::Parameters
+uval	src/SparseMatrix_functions.hpp	/^        GlobalOrdinal uval;$/;"	m	union:miniFE::intuint::__anon3
+uval	src/SparseMatrix_functions.hpp	/^        unsigned char uval;$/;"	m	union:miniFE::intuint::__anon4
+uval	src/SparseMatrix_functions.hpp	/^        unsigned int uval;$/;"	m	union:miniFE::intuint::__anon6
+uval	src/SparseMatrix_functions.hpp	/^        unsigned long uval;$/;"	m	union:miniFE::intuint::__anon7
+uval	src/SparseMatrix_functions.hpp	/^        unsigned short uval;$/;"	m	union:miniFE::intuint::__anon5
+v	src/CudaUtils.h	/^      ValueType v;$/;"	m	union:miniFE::convert::__anon2
+value	src/YAML_Element.hpp	/^  std::string value;$/;"	m	class:YAML_Element
+verify_solution	fem/verify_solution.hpp	/^verify_solution(const simple_mesh_description<typename VectorType::GlobalOrdinalType>& mesh,$/;"	f	namespace:miniFE
+verify_solution	utils/Parameters.hpp	/^  int verify_solution;$/;"	m	struct:miniFE::Parameters
+waxpby	src/Vector_functions.hpp	/^  waxpby(typename VectorType::ScalarType alpha, const VectorType& x,$/;"	f	namespace:miniFE
+waxpby_kernel	src/Vector_functions.hpp	/^__global__  void waxpby_kernel(typename VectorType::ScalarType alpha, const VectorType x, $/;"	f	namespace:miniFE
+write_matrix	src/SparseMatrix_functions.hpp	/^    void write_matrix(const std::string& filename, $/;"	f	namespace:miniFE
+write_vector	src/Vector_functions.hpp	/^void write_vector(const std::string& filename,$/;"	f	namespace:miniFE
+x	utils/BoxIterator.hpp	/^  int x;$/;"	m	class:miniFE::BoxIterator
+y	utils/BoxIterator.hpp	/^  int y;$/;"	m	class:miniFE::BoxIterator
+z	utils/BoxIterator.hpp	/^  int z;$/;"	m	class:miniFE::BoxIterator
+~BoxIterator	utils/BoxIterator.hpp	/^  ~BoxIterator(){}$/;"	f	class:miniFE::BoxIterator
+~CudaELLMatrix	src/CudaELLMatrix.hpp	/^  ~CudaELLMatrix()$/;"	f	struct:miniFE::CudaELLMatrix
+~ElemData	fem/ElemData.hpp	/^  ~ElemData(){}$/;"	f	struct:miniFE::ElemData
+~ElemDataPtr	fem/ElemData.hpp	/^  ~ElemDataPtr(){}$/;"	f	struct:miniFE::ElemDataPtr
+~Vector	src/Vector.hpp	/^  ~Vector()$/;"	f	struct:miniFE::Vector
+~YAML_Doc	src/YAML_Doc.cpp	/^YAML_Doc::~YAML_Doc(void){$/;"	f	class:YAML_Doc
+~YAML_Element	src/YAML_Element.cpp	/^YAML_Element::~YAML_Element(){$/;"	f	class:YAML_Element
