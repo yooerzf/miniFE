@@ -128,8 +128,8 @@ int main(int argc, char** argv) {
   int numprocs = 1, myproc = 0;
   setCudaDeviceFromRank(params);
   miniFE::initialize_mpi(argc, argv, numprocs, myproc);
-  if(myproc==0)
-    printf(" OMP_NUM_THREADS=%d\n", omp_get_max_threads());
+//  if(myproc==0)
+//   printf(" OMP_NUM_THREADS=%d\n", omp_get_max_threads());
   cudaDeviceProp info;
   int dev;
   cudaGetDevice(&dev);
